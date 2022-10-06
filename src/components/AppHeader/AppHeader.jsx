@@ -57,7 +57,7 @@ export const AppHeader = () => {
               </ul>
             </nav>
           )}
-          <DynamicHeaderLink />
+          <DynamicHeaderLink type="a" />
         </div>
       </div>
     </div>
