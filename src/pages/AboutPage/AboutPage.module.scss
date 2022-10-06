@@ -1,0 +1,32 @@
+.about {
+  width: 100%;
+  pointer-events: all;
+  &_header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-top: 36rem;
+    padding-bottom: 36rem;
+  }
+  &_main {
+    padding-top: 180rem;
+    padding-bottom: 180rem;
+    display: flex;
+    justify-content: center;
+  }
+  &_title {
+    font-size: 75rem;
+    line-height: 75rem;
+    color: #fff;
+  }
+  &_content {
+    margin-top: 48rem;
+    font-size: 36rem;
+    line-height: 44rem;
+
+    & p:not(:last-child) {
+      margin-bottom: 40rem;
+    }
+  }
+}

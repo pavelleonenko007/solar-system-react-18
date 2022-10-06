@@ -1,13 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 0.5px;
+}
+@media screen and (min-height: 600px) {
+  html {
+    font-size: 0.8px;
+  }
+}
+@media screen and (min-height: 980px) {
+  html {
+    font-size: 1px;
+  }
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'OnyFuture', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+    'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #000;
+  color: #fff;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+#root {
+  width: 100%;
+  height: 100vh;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 1640rem;
+  padding-right: 40rem;
+  padding-left: 40rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container.container--about {
+  max-width: 918rem;
+}
+
+.container.container--scroll {
+  max-width: 1640rem;
+  padding: 0;
+}
+
+.App {
+  /* display: none; */
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  pointer-events: none;
+}
+
+@media screen and (max-width: 479rem) {
+  .container {
+    padding-right: 20rem;
+    padding-left: 20rem;
+  }
+}
+
+@font-face {
+  font-family: 'OnyFuture';
+  src: url('./assets/fonts/OnyFuture-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
 }

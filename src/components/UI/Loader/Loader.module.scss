@@ -1,0 +1,68 @@
+.loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &_figure {
+    position: relative;
+    height: 70rem;
+    font-size: 60rem;
+    line-height: 60rem;
+    &::before {
+      content: '';
+      width: 220rem;
+      height: 220rem;
+      // width: 261.83rem;
+      // height: 276.54rem;
+      position: absolute;
+      border: 7rem solid #fff;
+      border-radius: 50%;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      // background-size: contain;
+      // background-repeat: no-repeat;
+      // background-image: url(../../../assets/images/Intersect.svg);
+      z-index: -1;
+    }
+  }
+  &_wrapper {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  &_words {
+    transition: transform 0.4s ease-in-out;
+    // transform: translate(0rem, -92rem);
+  }
+}
+
+.word {
+  padding-top: 2rem;
+  height: 70rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+}
+
+@media screen and (max-width: 479rem) {
+  .loader {
+    &_figure {
+      font-size: 32rem;
+      line-height: 38rem;
+      &::before {
+        content: '';
+        width: 100rem;
+        height: 108rem;
+      }
+    }
+  }
+}

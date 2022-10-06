@@ -1,0 +1,212 @@
+[
+  {
+    "id": "SOHO",
+    "name": "SOHO",
+    "dates": "December 2, 1995 - ongoing",
+    "planetId": ["Sun"],
+    "thumbnail": "../../media/SOHO.png",
+    "countries": ["../../media/EU.svg", "../../media/US.svg"]
+  },
+  {
+    "id": "Tesla Roadster",
+    "name": "Tesla Roadster",
+    "dates": "February 6, 2018 - August 2019, first orbit around the Sun ",
+    "planetId": ["Sun"],
+    "thumbnail": "../../media/Tesla-Roadster.png",
+    "countries": ["../../media/US.svg"]
+  },
+  {
+    "id": "Solar Orbiter",
+    "name": "Solar Orbiter",
+    "dates": "February 10, 2020 - ongoing",
+    "planetId": ["Sun"],
+    "thumbnail": "../../media/Solar-Orbiter.png",
+    "countries": ["../../media/EU.svg"]
+  },
+  {
+    "id": "Mariner 10",
+    "name": "Mariner 10",
+    "dates": "November 4, 1973 - March 24, 1975",
+    "planetId": ["Mercury"],
+    "thumbnail": "../../media/Mariner-10.png",
+    "countries": ["../../media/US.svg"]
+  },
+  {
+    "id": "Messenger",
+    "name": "Messenger",
+    "dates": " August 3, 2004 - April 30, 2015",
+    "planetId": ["Mercury"],
+    "thumbnail": "../../media/Messenger.png",
+    "countries": ["../../media/US.svg"]
+  },
+  {
+    "id": "BepiColombo",
+    "name": "BepiColombo",
+    "dates": "October 20, 2018 -  ongoing",
+    "planetId": ["Mercury"],
+    "thumbnail": "../../media/BepiColombo.png",
+    "countries": ["../../media/EU.svg", "../../media/JP.svg"]
+  },
+  {
+    "id": "Venera 1",
+    "name": "Venera 1",
+    "dates": "February 12, 1961 - March 4, 1961",
+    "planetId": ["Venus"],
+    "thumbnail": "../../media/Venera-1.png",
+    "countries": ["../../media/SU.svg"]
+  },
+  {
+    "id": "Mariner 5",
+    "name": "Mariner 5",
+    "dates": "June 14, 1967 - December 4, 1967",
+    "planetId": ["Venus"],
+    "thumbnail": "../../media/Mariner-5.png",
+    "countries": ["../../media/US.svg"]
+  },
+  {
+    "id": "Venus Express",
+    "name": "Venus Express",
+    "dates": "November 9, 2005 - January 18, 2018",
+    "planetId": ["Venus"],
+    "thumbnail": "../../media/Venus-Express.png",
+    "countries": ["../../media/EU.svg"]
+  },
+  {
+    "id": "Sputnik 1",
+    "name": "Sputnik 1",
+    "dates": "October 4, 1957 - January 4, 1958",
+    "planetId": ["Earth"],
+    "thumbnail": "../../media/Sputnik-1.png",
+    "countries": ["../../media/SU.svg"]
+  },
+  {
+    "id": "Hubble Space Telescope",
+    "name": "Hubble Space Telescope",
+    "dates": "April, 25, 1990 - ongoing",
+    "planetId": ["Earth"],
+    "thumbnail": "../../media/Hubble-Space-Telescope.png",
+    "countries": ["../../media/US.svg", "../../media/EU.svg"]
+  },
+  {
+    "id": "James Webb Space Telescope",
+    "name": "James Webb Space Telescope",
+    "dates": "December 25, 2021 - ongoing",
+    "planetId": ["Earth"],
+    "thumbnail": "../../media/James-Webb-Space-Telescope.png",
+    "countries": [
+      "../../media/US.svg",
+      "../../media/CA.svg",
+      "../../media/EU.svg"
+    ]
+  },
+  {
+    "id": "Mars Express",
+    "name": "Mars Express",
+    "dates": "June 2, 2003 - ongoing",
+    "planetId": ["Mars"],
+    "thumbnail": "../../media/Mars-Express.png",
+    "countries": ["../../media/EU.svg"]
+  },
+  {
+    "id": "Tianwen 1",
+    "name": "Tianwen 1",
+    "dates": "July 23, 2020 - ongoing",
+    "planetId": ["Mars"],
+    "thumbnail": "../../media/Tianwen-1.png",
+    "countries": ["../../media/CN.svg"]
+  },
+  {
+    "id": "Mars 2020",
+    "name": "Mars 2020",
+    "dates": "July 30,  2020 - ongoing",
+    "planetId": ["Mars"],
+    "thumbnail": "../../media/Mars-2020.png",
+    "countries": ["../../media/US.svg"]
+  },
+  {
+    "id": "Pioneer 10",
+    "name": "Pioneer 10",
+    "dates": "March 2, 1972 - December 4, 1973 Jupiter flyby - January 23,  2003",
+    "planetId": ["Jupiter"],
+    "thumbnail": "../../media/Pioneer-10.png",
+    "countries": ["../../media/US.svg"]
+  },
+  {
+    "id": "Voyager 1",
+    "name": "Voyager 1",
+    "dates": {
+      "Jupiter": "September 5, 1977 - March 5, 1979 Jupiter flyby - ongoing",
+      "Saturn": "September 5, 1977 - November 12, 1980 Saturn flyby - ongoing"
+    },
+    "planetId": ["Jupiter", "Saturn"],
+    "thumbnail": "../../media/Voyager-1.png",
+    "countries": ["../../media/US.svg"]
+  },
+  {
+    "id": "Juno",
+    "name": "Juno",
+    "dates": "August 5, 2011 - ongoing",
+    "planetId": ["Jupiter"],
+    "thumbnail": "../../media/Juno.png",
+    "countries": ["../../media/US.svg"]
+  },
+  {
+    "id": "Pioneer 11",
+    "name": "Pioneer 11",
+    "dates": "April 6, 1973 - September 1, 1979 Saturn flyby - November 24, 1995",
+    "planetId": ["Saturn"],
+    "thumbnail": "../../media/Pioneer-11.png",
+    "countries": ["../../media/US.svg"]
+  },
+  {
+    "id": "Cassini-Huygens",
+    "name": "Cassini-Huygens",
+    "dates": "October 15, 1997 - Septermber 15, 2017",
+    "planetId": ["Saturn"],
+    "thumbnail": "../../media/Cassini-Huygens.png",
+    "countries": ["../../media/US.svg", "../../media/EU.svg"]
+  },
+  {
+    "id": "Voyager 2",
+    "name": "Voyager 2",
+    "dates": {
+      "Uranus": "August 20, 1977 - January 24, 1986 Uranus flyby - ongoing",
+      "Neptune": "August 20, 1977 - August 24, 1989 Neptune flyby - ongoing"
+    },
+    "planetId": ["Uranus", "Neptune"],
+    "thumbnail": "../../media/Voyager-2.png",
+    "countries": ["../../media/US.svg"]
+  },
+  {
+    "id": "New Horizons",
+    "name": "New Horizons",
+    "dates": "January 19, 2006 - ongoing",
+    "planetId": ["Pluto"],
+    "thumbnail": "../../media/New-Horizons.png",
+    "countries": ["../../media/US.svg"]
+  },
+  {
+    "id": "Apollo 11",
+    "name": "Apollo 11",
+    "dates": "July 16, 1969 - July 14, 1969",
+    "planetId": ["Moon"],
+    "thumbnail": "../../media/Apollo-11.png",
+    "countries": ["../../media/US.svg"]
+  },
+  {
+    "id": "Chandrayaan-1",
+    "name": "Chandrayaan-1",
+    "dates": "October 22, 2008 - August 28, 2009",
+    "planetId": ["Moon"],
+    "thumbnail": "../../media/Chandrayaan-1.png",
+    "countries": ["../../media/IND.svg"]
+  },
+  {
+    "id": "Artemis Program",
+    "name": "Artemis Program",
+    "dates": "starting 2024, human return to the Moon and beyond ",
+    "planetId": ["Moon"],
+    "thumbnail": "../../media/Artemis-Program.png",
+    "countries": ["../../media/US.svg"]
+  }
+]

@@ -1,0 +1,15 @@
+.close {
+  position: absolute;
+  top: 0;
+  right: 40rem;
+  width: 46rem;
+  height: 46rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background-color: transparent;
+  background-image: url(../../../assets/images/Cross.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}

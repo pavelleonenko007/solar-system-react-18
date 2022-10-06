@@ -1,0 +1,28 @@
+.scroll-link {
+  position: relative;
+  padding-top: 31.5rem;
+  padding-right: 35rem;
+  padding-bottom: 31.5rem;
+  padding-left: 35rem;
+  color: #fff;
+  font-size: 21rem;
+  line-height: 21rem;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  &--active {
+    &::before {
+      content: '';
+      width: 58.23rem;
+      height: 61.5rem;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -55%);
+      background-image: url(../../../assets/images/Intersect.svg);
+      background-size: 100%;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+  }
+}

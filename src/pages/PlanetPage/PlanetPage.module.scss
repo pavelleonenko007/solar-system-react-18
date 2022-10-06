@@ -1,0 +1,71 @@
+.planet {
+  width: 100%;
+  height: 100%;
+  padding-top: 127.5rem;
+  pointer-events: all;
+  &_wrapper {
+    width: 100%;
+    height: 100%;
+    max-width: 700rem;
+  }
+  &_name {
+    font-size: 75rem;
+    line-height: 75rem;
+  }
+  &_content {
+    margin-top: 30rem;
+    font-size: 32rem;
+    line-height: 32rem;
+    color: #fff;
+  }
+  &_bullets {
+    margin-top: 95rem;
+  }
+}
+
+.bullets {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 42rem;
+
+  &_title {
+    margin-top: 8rem;
+    font-size: 24rem;
+    line-height: 24rem;
+    color: rgba(255, 255, 255, 0.3);
+  }
+
+  &_value {
+    font-size: 24rem;
+    line-height: 24rem;
+  }
+}
+
+@media screen and (max-width: 479rem) {
+  .planet {
+    &_name {
+      font-size: 45rem;
+      line-height: 45rem;
+    }
+    &_content {
+      margin-top: 24rem;
+      font-size: 24rem;
+      line-height: 32rem;
+      color: #fff;
+    }
+  }
+
+  .bullets {
+    grid-gap: 20rem;
+    &_title {
+      margin-top: 6rem;
+      font-size: 20rem;
+      line-height: 20rem;
+    }
+
+    &_value {
+      font-size: 20rem;
+      line-height: 20rem;
+    }
+  }
+}

@@ -1,0 +1,29 @@
+.missons {
+  padding-top: 134rem;
+  pointer-events: all;
+  &_wrapper {
+    width: 100%;
+    max-width: 800rem;
+  }
+  &_title {
+    display: flex;
+    align-items: end;
+  }
+  &_list {
+    margin-top: 10rem;
+    display: block;
+    padding-bottom: 100rem;
+  }
+}
+
+.title {
+  &_head {
+    font-size: 75rem;
+    line-height: 75rem;
+    margin-right: 27rem;
+  }
+  &_sub {
+    font-size: 45rem;
+    line-height: 52rem;
+  }
+}
