@@ -35,7 +35,7 @@ function App() {
               <Route path=":planetId/:year" element={<MissionsPage />} />
             </Route>
           </Route>
-          <Route path="about-us" element={<AboutPage />} />
+          {/* <Route path="about-us" element={<AboutPage />} /> */}
           <Route path="loader" element={<Loader />} />
         </Routes>
       ) : (
